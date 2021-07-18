@@ -5,27 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Promoções Antecipadas!</title>
+    <link rel="shortcut icon" href="./assets/free-black-friday-logo.png" type="image/x-icon">
 </head>
 <body>
-    <section class="section section-one">
+    <section id="section-one" class="section">
         <div class="black-friday-logo">
             <img src="./assets/free-black-friday-logo.png" alt="black-friday-80-off">
         </div>
+        <div id="paragrafo">
+            <p>
+                Tenha acesso antecipado e veja as melhores ofertas durante o dia no seu e-mail!
+            </p>
+        </div>
         <div id="cadastra">
-            <button>
-                <a href="#section-two"></a>
-                    cadastre-se
-                </a>
-            </button>
+            <a href="#section-two">
+                <button>
+                    Cadastre-se
+                </button>
             </a>
         </div>
     </section>
-    <section id="section-two" class="section"></section>
-    <section id="section-three" class="section products"></section>
-    <section id="section-four" class="section products"></section>
+    <section id="section-two" class="section">
+        <div id="formulario">
+            <form id="form">
+                <h1>Preencha o formulário</h1>
+                <input placeholder="Nome" id="name" class="entrada" type="text">
+                <input placeholder="E-mail" id="mail" class="entrada" type="text">
+                <p>Ao cadastrar você aceita receber essa e outras promoções do nosso site <span>*</span></p>
+                <button id="submeter" type="submit">
+                    Cadastrar
+                </button>
+            </form>
+        </div>
+    </section>
 
-    <footer class="footer-content"></footer>
-    <script src=""></script>
+    <footer class="footer-content">
+        feito por mauricio martins | treinamento hiring coders 2021
+    </footer>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
